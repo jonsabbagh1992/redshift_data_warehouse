@@ -44,7 +44,7 @@ You will need to have your own AWS account set up, with a user that has the foll
     
     - AmazonS3ReadOnlyAccess
 
-Once that is set-up, enter the key and secret access codes in **dwh.cfg**. Finally, run **run.py** to create the tables and load the data into Redshift.
+Once that is set-up, enter the key and secret access codes in **dwh.cfg**. Finally, execute **run.sh** to create the tables and load the data into Redshift.
 
 Don't forget to run **tear_down_resources.py** once you are done.
 
